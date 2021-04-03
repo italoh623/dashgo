@@ -80,8 +80,9 @@ export default function UserList() {
                     fontSize="sm"
                     colorScheme="purple"
                     leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
+                    variant={ isWideVersion ? "solid" : "ghost" }
                   >
-                    Editar
+                    { isWideVersion ? 'Editar' : ''}
                   </Button>
                 </Td>
               </Tr>
@@ -104,8 +105,9 @@ export default function UserList() {
                     fontSize="sm"
                     colorScheme="purple"
                     leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
+                    variant={ isWideVersion ? "solid" : "ghost" }
                   >
-                    Editar
+                    { isWideVersion ? 'Editar' : ''}
                   </Button>
                 </Td>
               </Tr>
@@ -128,8 +130,9 @@ export default function UserList() {
                     fontSize="sm"
                     colorScheme="purple"
                     leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
+                    variant={ isWideVersion ? "solid" : "ghost" }
                   >
-                    Editar
+                    { isWideVersion ? 'Editar' : ''}
                   </Button>
                 </Td>
               </Tr>
